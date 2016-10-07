@@ -3,7 +3,7 @@ defmodule CloudIServiceValidate do
 
   def project do
     [app: :cloudi_service_validate,
-     version: "1.5.3",
+     version: "1.5.4",
      language: :erlang,
      description: description,
      package: package,
@@ -11,7 +11,7 @@ defmodule CloudIServiceValidate do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 1.5.3"}]
+    [{:cloudi_core, "~> 1.5.4"}]
   end
 
   defp description do
